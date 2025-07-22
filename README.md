@@ -25,8 +25,10 @@ $ git rebase --continue
 $ git status
 $ git log
 $ git log --oneline
+```
 
 ##Challenge 3
+
 ```bash
 $ git log
 $ git rebase -i HEAD~3
