@@ -25,4 +25,18 @@ $ git rebase --continue
 $ git status
 $ git log
 $ git log --oneline
+
+##Challenge 3
+```bash
+$ git log
+$ git rebase -i HEAD~3
+$ git log
+$ git log --oneline
+$ git rebase -i HEAD~6
+$ git rebase -i HEAD~4
+$ git rebase --abort
+$ git rebase -i --root
+$ git log
+$ git log --oneline
 ```
+
