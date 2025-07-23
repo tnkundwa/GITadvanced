@@ -62,3 +62,13 @@ $ git rebase -i --root
 $ git rebase --continue
 $ git log --oneline
 ```
+##Challenge 6
+```bash
+$ touch unwanted.txt
+$ git add unwanted.txt 
+$ git commit -m  "Unwanted commit"
+$ git status
+$ git rebase -i --root
+$ git rebase --continue
+$ git log --oneline
+```
