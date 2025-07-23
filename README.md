@@ -72,3 +72,21 @@ $ git rebase -i --root
 $ git rebase --continue
 $ git log --oneline
 ```
+
+##Challenge 7
+```bash
+$ git checkout -b ft/branch
+$ git branch
+$ git status
+$ touch test5.md
+$ git status
+$ git add test5.md 
+$ git commit -m "Implemented test 5"
+$ git log --oneline
+$ git checout main
+$ git checkout main
+$ git cherry-pick cc33ad5
+$ git status
+$ git cherry-pick --continue
+$ git log --oneline
+```
