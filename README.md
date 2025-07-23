@@ -54,3 +54,11 @@ $ git rebase --continue
 $ git rebase --skip
 $ git log --oneline
 ```
+
+##Challenge 5
+```bash
+LONOVO@toussaintn23 MINGW64 ~/GITadvanced (main)
+$ git rebase -i --root
+$ git rebase --continue
+$ git log --oneline
+```
