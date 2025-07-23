@@ -42,3 +42,15 @@ $ git log
 $ git log --oneline
 ```
 
+##Challenge 4
+```bash
+$ git log --oneline
+$ git rebase -i --root
+$ git reset HEAD~1
+$ git status
+$ git add test3.md 
+$ git commit -m "Create third commit"
+$ git rebase --continue
+$ git rebase --skip
+$ git log --oneline
+```
