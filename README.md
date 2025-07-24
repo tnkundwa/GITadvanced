@@ -73,7 +73,7 @@ $ git rebase --continue
 $ git log --oneline
 ```
 
-##Challenge 7
+##Challenge 8
 ```bash
 $ git checkout -b ft/branch
 $ git branch
@@ -89,4 +89,40 @@ $ git cherry-pick cc33ad5
 $ git status
 $ git cherry-pick --continue
 $ git log --oneline
+```
+
+#Part 2
+##Challenge 1
+```bash
+$ git checkout -b ft/new-feature
+```
+##Challenge 2
+```bash
+$ touch feature.txt
+$ git add feature.txt 
+$ git commit -m "Implemented core functionality for new feature"
+```
+##Challenge 3
+```bash
+$ git checkout main
+$ touch readme.txt
+$ git add readme.txt
+$ git commit -m "Updated project readme"
+```
+##Challenge 5
+```bash
+$ git merge ft/new-feature
+$ git status
+$ git log --oneline
+$ git reflog
+$ git branch -d ft/new-feature
+```
+##Challenge 6
+```bash
+$ git log --oneline --graph
+$ git log --oneline --root
+$ git checkout -b ft/new-branch-from-commit 171dee6
+$ git checkout main
+$ git merge ft/new-branch-from-commit
+$ git status
 ```
