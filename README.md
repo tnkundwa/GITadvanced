@@ -123,6 +123,29 @@ $ git log --oneline --graph
 $ git log --oneline --root
 $ git checkout -b ft/new-branch-from-commit 171dee6
 $ git checkout main
+```
+
+##Challenge 7
+```bash
 $ git merge ft/new-branch-from-commit
 $ git status
+```
+
+##Challenge 8
+```bash
+$ git status
+$ git pull
+$ git branch
+$ git checkout ft/new-branch-from-commit 
+$ git status
+$ git pull
+$ git rebase main
+$ git status
+$ git checkout main
+$ git status
+```
+##Challenge 9
+```bash
+$ git branch -m ft/new-branch-from-commit ft/improved-branch-name
+$ git branch
 ```
