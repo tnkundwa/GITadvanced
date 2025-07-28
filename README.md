@@ -149,3 +149,43 @@ $ git status
 $ git branch -m ft/new-branch-from-commit ft/improved-branch-name
 $ git branch
 ```
+
+#Part 3
+##Challenge 1
+```bash
+$ git touch feature2.txt
+$ git stash -u
+$ git stash list
+```
+##Challenge 2
+```bash
+$ git stash list
+$ git stash pop
+```
+##Challenge 3
+```bash
+$ git rm feature2.txt
+$ git status
+$ git branch
+$ git checkout ft/branch 
+$ git status
+$ git add feature.txt 
+$ git commit -m "Just want to merge some files"
+$ git checkout ft/branch 
+$ git status
+$ git pull
+$ git pull main
+$ git pull remote main
+$ git pull -h
+$ git pull origin main
+$ git checkout main
+$ git status
+$ git add feature.txt 
+$ git commit -m "Just trying to merge and solve some conflicts"
+$ git checkout main
+$ git merge ft/branch 
+$ git status
+$ git push
+$ git remote -v
+$ git mergetool
+``
