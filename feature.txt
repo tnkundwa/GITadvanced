@@ -1,1 +1,4 @@
 Good morning!
+A new message just to check how to stash!
+Now it aint about the stash it's about merge!
+Let's see how it goes with the merge conflicts.
