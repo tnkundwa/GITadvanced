@@ -2,3 +2,5 @@ Good morning!
 A new message just to check how to stash!
 Now it aint about the stash it's about merge!
 Let's see how it goes with the merge conflicts.
+Now time to find out how to merge branches in Git.
+Let's get started!
