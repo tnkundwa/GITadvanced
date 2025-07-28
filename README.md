@@ -189,3 +189,31 @@ $ git push
 $ git remote -v
 $ git mergetool
 ``
+##Challenge 6
+```bash
+$ git status
+$ touch .gitignore
+$ echo "/tmp" >> .gitignore
+$ cat .gitignore
+```
+##Challenge 7
+```bash
+$ git log --oneline -n 1
+$ git log --oneline -n
+$ git log --oneline
+$ git tag v1.0 
+$ git status
+$ git show v1.0
+$ git push origin v1.0
+```
+##Challenge 8
+```bash
+$ git tag
+$ git tag -l
+$ git tag -d v1.0
+$ git push origin --delete v1.0
+$ git status
+$ git add .gitignore 
+$ git commit -m "Added a git ignore file"
+$ git push
+```
