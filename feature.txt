@@ -1,1 +1,3 @@
 Good morning!
+Now time to find out how to merge branches in Git.
+Let's get started!
